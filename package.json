@@ -15,7 +15,8 @@
     "express": "^4.19.2",
     "express-handlebars": "^7.1.2",
     "mongoose": "^8.3.0",
-    "dotenv": "^10.0.0"  // Add dotenv here
+    "dotenv": "^10.0.0"
   }
 }
+
 
