@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+</head>
+
+<body>
+    <h1>Movie Search</h1>
+    <form action="/api/movies" method="GET">
+        <label for="movieName">Movie Name:</label>
+        <input type="text" id="movieName" name="title">
+        <br>
+        <label for="page">Page:</label>
+        <input type="number" id="page" name="page" value="1">
+        <br>
+        <label for="perPage">Records per page:</label>
+        <select id="perPage" name="perPage">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+            <!-- Add more options as needed -->
+        </select>
+        <br>
+        <button type="submit">Search</button>
+    </form>
+</body>
+
+</html>
